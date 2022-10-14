@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Andro App</title>
+</head>
+<body>
+  <h3>{{title}}</h3>
+  <strong *ngIf="count==5"> The count is 5</strong>
+  <p>The count value={{count}}</p>
+  <button (click)="increment()"> Increment Count </button>
+<strong>Custom Components works go here</strong>
+<app-component-exam></app-component-exam>
+</body>
+</html>
